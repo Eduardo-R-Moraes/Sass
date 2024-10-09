@@ -12,15 +12,22 @@ Nesta aula foi feito a criação do arquivo scss e a compilação.
 
 ## Fazendo as instalações
 Inicializando o NPM <br/>
-`npm init -y`
+```
+npm init -y
+```
 
 Baixando o gulp (compilador), gulp-sass (plugin) e sass (biblioteca usada pelo plugin)<br/>
-`npm install gulp gulp-sass sass --save-dev`
+```
+npm install gulp gulp-sass sass --save-dev
+```
 
 ## Passo a Passo
-- Crie o arquivo index.html
-- Crie o arquivo index.scss
-- No arquivo package.json, dentro de scripts crie: "gulp": "gulp",
-- Crie o arquivo gulpfile.js, onde será feita a configuração de compilação
-- Configura o arquivo gulpfile.js
-- Roda o gulp no terminal: <br/> `npm run gulp`
+1. Crie o arquivo index.html
+2. Crie o arquivo index.scss
+3. No arquivo package.json, dentro de scripts crie: "gulp": "gulp",
+4. Crie o arquivo gulpfile.js, onde será feita a configuração de compilação
+5. Configura o arquivo gulpfile.js
+6. Roda o gulp no terminal: <br/>
+  ```
+  npm run gulp
+  ```

@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "- NPM: [link de instalação](https://nodejs.org/en/download/prebuilt-installer) - Live Sass compiler: extensão do vscode para ver as mudanças do sass ao vivo - Compilador usado: gulp",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.79.4"
+  }
+}
